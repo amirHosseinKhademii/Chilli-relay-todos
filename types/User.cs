@@ -10,6 +10,6 @@ namespace hot_demo.types
 
         public string Password { get; init; }
 
-        public async Task<List<Todo>> GetTodos([Service] Service service, [Parent] User user) => await service.GetTodosAsync(user.Id);
+        // public async Task<List<Todo>> GetTodos([Service] Service service, [Parent] User user) => await service.GetTodosAsync(user.Id);
     }
 }

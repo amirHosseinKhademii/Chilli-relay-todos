@@ -27,15 +27,20 @@ namespace hot_demo.extensions
             });
 
             services.Configure<MongoDBSetting>(
-                    config.GetSection("DataBase"))
+                config.GetSection("DataBase"))
                 .AddHttpContextAccessor()
                 .AddSingleton<IJwtAuthentication>(new JwtAuthentication("this is my custom Secret key for authentication"))
                 .AddSingleton<Service>()
                 .AddGraphQLServer()
-                .AddAuthorization()
+                .AddGlobalObjectIdentification()
                 .AddQueryType<Query>()
                 .AddMutationType<Mutation>()
-                .AddSubscriptionType<Subscription>();
+                .AddSubscriptionType<Subscription>()
+                .AddMongoDbPagingProviders()
+                .AddAuthorization()
+               ;
+
+
 
 
             return services;

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/amirhosseinkhademi/Job/Private/DotNet/hot-demo/hot-demo.csproj": {}
+    "/Users/amirhosseinkhademi/Job/Development/DotNet/hot-demo/hot-demo.csproj": {}
   },
   "projects": {
-    "/Users/amirhosseinkhademi/Job/Private/DotNet/hot-demo/hot-demo.csproj": {
+    "/Users/amirhosseinkhademi/Job/Development/DotNet/hot-demo/hot-demo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/amirhosseinkhademi/Job/Private/DotNet/hot-demo/hot-demo.csproj",
+        "projectUniqueName": "/Users/amirhosseinkhademi/Job/Development/DotNet/hot-demo/hot-demo.csproj",
         "projectName": "hot-demo",
-        "projectPath": "/Users/amirhosseinkhademi/Job/Private/DotNet/hot-demo/hot-demo.csproj",
+        "projectPath": "/Users/amirhosseinkhademi/Job/Development/DotNet/hot-demo/hot-demo.csproj",
         "packagesPath": "/Users/amirhosseinkhademi/.nuget/packages/",
-        "outputPath": "/Users/amirhosseinkhademi/Job/Private/DotNet/hot-demo/obj/",
+        "outputPath": "/Users/amirhosseinkhademi/Job/Development/DotNet/hot-demo/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/amirhosseinkhademi/.nuget/NuGet/NuGet.Config"
@@ -44,15 +44,19 @@
             },
             "HotChocolate.AspNetCore": {
               "target": "Package",
-              "version": "[12.15.0, )"
+              "version": "[12.16.0, )"
             },
             "HotChocolate.AspNetCore.Authorization": {
               "target": "Package",
-              "version": "[12.15.0, )"
+              "version": "[12.16.0, )"
+            },
+            "HotChocolate.Data.MongoDb": {
+              "target": "Package",
+              "version": "[12.16.0, )"
             },
             "HotChocolate.Subscriptions.Redis": {
               "target": "Package",
-              "version": "[12.15.0, )"
+              "version": "[12.16.0, )"
             },
             "Microsoft.AspNetCore.Authentication": {
               "target": "Package",
@@ -68,7 +72,7 @@
             },
             "MongoDB.Driver": {
               "target": "Package",
-              "version": "[2.18.0, )"
+              "version": "[2.16.0, )"
             },
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",

@@ -18,20 +18,28 @@
     <Using Include="hot_demo.utils" />
     <Using Include="HotChocolate.AspNetCore.Authorization" />
     <Using Include="HotChocolate.Subscriptions" />
-    <using Include="System.Security.Claims"/>
-    <using Include="MongoDB.Driver"/>
-    <using Include="Microsoft.Extensions.Options"/>
-    <using Include="MongoDB.Bson"/>
-    <using Include="MongoDB.Bson.Serialization.Attributes"/>
+    <using Include="System.Security.Claims" />
+    <using Include="MongoDB.Driver" />
+    <using Include="Microsoft.Extensions.Options" />
+    <using Include="MongoDB.Bson" />
+    <using Include="MongoDB.Bson.Serialization.Attributes" />
+     <Using Include="System.Threading.Tasks" />
+    <Using Include="HotChocolate" />
+    <Using Include="HotChocolate.Execution" />
+    <Using Include="HotChocolate.Types" />
+    <Using Include="HotChocolate.Types.Relay" />
+    <Using Include="HotChocolate.Data" />
+    </ItemGroup>
+    <ItemGroup>
     <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
-    <PackageReference Include="HotChocolate.AspNetCore" Version="12.15.0" />
-    <PackageReference Include="HotChocolate.AspNetCore.Authorization" Version="12.15.0" />
-    <PackageReference Include="HotChocolate.Subscriptions.Redis" Version="12.15.0" />
+    <PackageReference Include="HotChocolate.AspNetCore" Version="12.16.0" />
+    <PackageReference Include="HotChocolate.AspNetCore.Authorization" Version="12.16.0" />
+    <PackageReference Include="HotChocolate.Subscriptions.Redis" Version="12.16.0" />
+    <PackageReference Include="HotChocolate.Data.MongoDb" Version="12.16.0" />
+    <PackageReference Include="MongoDB.Driver" Version="2.16.0" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication" Version="2.2.0" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.10" />
     <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="6.24.0" />
-    <PackageReference Include="MongoDB.Driver" Version="2.18.0" />
     <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.24.0" />
   </ItemGroup>
-
 </Project>

@@ -1,9 +1,12 @@
 
 namespace hot_demo.services;
 
-public partial class Service : ITodoService
+public partial class Service
 {
-    public async Task<List<Todo>> GetTodosAsync(string userId) => await _todosCollection.Find(todo => todo.Author == userId).ToListAsync();
+    [UsePaging]
+    public async Task<IExecutable<Todo>> GetTodosAsync() => _todosCollection.AsExecutable();
+
+    public async Task<Todo> GetTodoByIdAsync([ID] string id) => await _todosCollection.Find(todo => todo.Id == id).FirstAsync();
 
     public async Task<Todo> CreateTodosAsync(string title, string userId, string? body)
     {

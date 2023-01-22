@@ -2,6 +2,8 @@
 global using global::GreenDonut;
 global using global::HotChocolate;
 global using global::HotChocolate.AspNetCore.Authorization;
+global using global::HotChocolate.Data;
+global using global::HotChocolate.Execution;
 global using global::HotChocolate.Subscriptions;
 global using global::HotChocolate.Types;
 global using global::HotChocolate.Types.Relay;
