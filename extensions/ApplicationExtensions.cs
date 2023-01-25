@@ -1,4 +1,5 @@
 using System.Text;
+using hot_demo.interceptors;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using StackExchange.Redis;
@@ -38,11 +39,8 @@ namespace hot_demo.extensions
                 .AddSubscriptionType<Subscription>()
                 .AddMongoDbPagingProviders()
                 .AddAuthorization()
+                .TryAddTypeInterceptor<StreamTypeInterceptor>()
                ;
-
-
-
-
             return services;
         }
     }

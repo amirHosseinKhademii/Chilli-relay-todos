@@ -4204,11 +4204,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/amirhosseinkhademi/Job/Development/DotNet/hot-demo/hot-demo.csproj",
+      "projectUniqueName": "/Users/amirhosseinkhademi/Job/Development/DotNet/graphql-relay-todos/hot-demo.csproj",
       "projectName": "hot-demo",
-      "projectPath": "/Users/amirhosseinkhademi/Job/Development/DotNet/hot-demo/hot-demo.csproj",
+      "projectPath": "/Users/amirhosseinkhademi/Job/Development/DotNet/graphql-relay-todos/hot-demo.csproj",
       "packagesPath": "/Users/amirhosseinkhademi/.nuget/packages/",
-      "outputPath": "/Users/amirhosseinkhademi/Job/Development/DotNet/hot-demo/obj/",
+      "outputPath": "/Users/amirhosseinkhademi/Job/Development/DotNet/graphql-relay-todos/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/amirhosseinkhademi/.nuget/NuGet/NuGet.Config"
